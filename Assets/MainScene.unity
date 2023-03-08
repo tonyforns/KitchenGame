@@ -175,6 +175,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -678153437351673552, guid: 73625b54d38774538b87aba66a31fec8,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 366db7e3fe2a64ef3b316e117ae33c76,
+        type: 2}
     - target: {fileID: 8284116976794080088, guid: 73625b54d38774538b87aba66a31fec8,
         type: 3}
       propertyPath: m_Name
@@ -986,6 +992,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -678153437351673552, guid: 73625b54d38774538b87aba66a31fec8,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: ee78603290ac9472e8f78e1c3e102b54,
+        type: 2}
     - target: {fileID: 8284116976794080088, guid: 73625b54d38774538b87aba66a31fec8,
         type: 3}
       propertyPath: m_Name
@@ -1055,6 +1067,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -678153437351673552, guid: 73625b54d38774538b87aba66a31fec8,
+        type: 3}
+      propertyPath: kitchenObjectSO
+      value: 
+      objectReference: {fileID: 11400000, guid: 366db7e3fe2a64ef3b316e117ae33c76,
+        type: 2}
     - target: {fileID: 5257510235736932367, guid: 73625b54d38774538b87aba66a31fec8,
         type: 3}
       propertyPath: m_IsActive
