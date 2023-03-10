@@ -14,6 +14,11 @@ public class BaseCounter : MonoBehaviour, IKitchenObjectParent
 
     }
 
+    public virtual void InteractAlternative(Player player)
+    {
+
+    }
+
     public void ClearKitchenObject()
     {
         kitchenObject = null;
