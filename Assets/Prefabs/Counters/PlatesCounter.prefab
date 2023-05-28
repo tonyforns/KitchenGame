@@ -7,11 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1452722820334058947}
     m_Modifications:
+    - target: {fileID: 433585800057296854, guid: e21b499d164095947b7559f0267f0e63,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 867046696110709345, guid: e21b499d164095947b7559f0267f0e63,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1a0afd856a35421469b28b916116fd9c, type: 2}
+    - target: {fileID: 4472461010448373620, guid: e21b499d164095947b7559f0267f0e63,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4589716710238282922, guid: e21b499d164095947b7559f0267f0e63,
         type: 3}
       propertyPath: m_Name
@@ -190,6 +200,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e21b499d164095947b7559f0267f0e63, type: 3}
+--- !u!1 &2273478447181187421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4589716710238282922, guid: e21b499d164095947b7559f0267f0e63,
+    type: 3}
+  m_PrefabInstance: {fileID: 2323003765353917943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6623824611242452727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2273478447181187421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e12977f8b15a2614d96c54044a48f616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterTopPoint: {fileID: 8376112915333908747}
+  plateVisualPrefab: {fileID: 3812876574508226176, guid: c0c9afd619b40914a8f625c0535e2284,
+    type: 3}
 --- !u!1001 &7412366204972920473
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -277,10 +308,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e1e70d2e1d7d25449e523bb5a05b9c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterTopPoint: {fileID: 0}
+  counterTopPoint: {fileID: 8376112915333908747}
+  plateKitchenObjectSO: {fileID: 11400000, guid: 5ac8022bf27d71c4b8acc04124ab0125,
+    type: 2}
 --- !u!4 &1452722820334058947 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8284116976794080090, guid: 7e6a23aeb57584f708e914e09e88cd07,
+    type: 3}
+  m_PrefabInstance: {fileID: 7412366204972920473}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8376112915333908747 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1361192766223116178, guid: 7e6a23aeb57584f708e914e09e88cd07,
     type: 3}
   m_PrefabInstance: {fileID: 7412366204972920473}
   m_PrefabAsset: {fileID: 0}
