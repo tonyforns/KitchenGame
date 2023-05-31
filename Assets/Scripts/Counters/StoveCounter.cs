@@ -115,13 +115,24 @@ public class StoveCounter : BaseCounter, IHasProgress
             }
             else
             {
-                if (GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
+                if (player.GetKitchenObject().TryGetPlate(out PlateKitchenObject plateKitchenObject))
                 {
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectSO()))
                     {
                         GetKitchenObject().DestroySelf();
                     }
                 }
+                else
+                {
+                    if (GetKitchenObject().TryGetPlate(out plateKitchenObject))
+                    {
+                        if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKitchenObjectSO()))
+                        {
+                            player.GetKitchenObject().DestroySelf();
+                        }
+                    }
+                }
+
                 state = State.Idle;
                 OnStateChanged?.Invoke(this, new OnStateChangeEventArg { state = state });
                 OnProgressChanged?.Invoke(this, new IHasProgress.OnProgressChangedEventArgs { progressNormalized = 0f });
