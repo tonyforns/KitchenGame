@@ -17,8 +17,6 @@ public class PlateKitchenObject : KitchenObject
     }
     public bool TryAddIngredient(KitchenObjectSO kitchenObjectSO)
     {
-        Debug.Log(kitchenObjectSO);
-        Debug.Log(validKitchenObjectSO.Contains(kitchenObjectSO));
         if (!kitchenObjectsSOList.Contains(kitchenObjectSO) && validKitchenObjectSO.Contains(kitchenObjectSO))
         {
             kitchenObjectsSOList.Add(kitchenObjectSO);
